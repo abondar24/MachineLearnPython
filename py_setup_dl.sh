@@ -12,3 +12,6 @@ sudo pip3  install scikit-learn
 sudo pip3 install pydotplus
 
 sudo pip3 install theano
+
+#change tf  version if you use not python 3.5. this is a non-gpu version
+sudo pip3 install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.7.1-cp34-none-linux_x86_64.whl
