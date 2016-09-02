@@ -8,7 +8,7 @@ def euc_distance(a,b):
     return distance.euclidean(a, b)
 
 # KNN - key nearest neighbours
-class ScrappyKNN():
+class ScrappyKNN:
     def fit(self, x_tr, y_tr):
         self.x_tr = x_tr
         self.y_tr = y_tr

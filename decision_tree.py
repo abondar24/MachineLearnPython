@@ -33,7 +33,7 @@ print(test_data[1], test_target[1])
 print(iris.feature_names, iris.target_names)
 
 
-# code visualization
+# tree visualization
 dot_data = StringIO()
 tree.export_graphviz(clf, out_file=dot_data,
                      feature_names=iris.feature_names,
