@@ -70,6 +70,7 @@ ppn.fit(x, y)
 plt.plot(range(1, len(ppn.errors_) + 1), ppn.errors_, marker='o')
 plt.xlabel('Epochs')
 plt.ylabel('Number of missclassifications')
+plt.tight_layout()
 plt.show()
 
 plot_decsion_regions(x, y, classifier=ppn)
