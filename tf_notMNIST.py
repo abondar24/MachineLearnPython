@@ -89,6 +89,7 @@ def load_letter(folder, min_num_images):
     """Load data for a single letter"""
     image_files = os.listdir(folder)
     dataset = np.ndarray(shape=(len(image_files), image_size, image_size), dtype=np.float32)
+    print(dataset.shape)
     print(folder)
     num_images = 0
     for image in image_files:

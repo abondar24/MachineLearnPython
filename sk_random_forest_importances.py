@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import pandas as pd
+import pandas_demos as pd
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.cross_validation import train_test_split

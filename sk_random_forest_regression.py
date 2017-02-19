@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas_demos as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.cross_validation import train_test_split

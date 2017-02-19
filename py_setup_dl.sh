@@ -1,4 +1,4 @@
-#!usr/bin/sh
+#!/bin/bash
 
 # if you want to run machine learing staff without anaconda 
 # you need to install all these dependencies
@@ -23,8 +23,7 @@ sudo pip3 install theano
 
 sudo pip3 install keras
 
-#change tf  version if you use not python 3.5. this is a non-gpu version
-sudo pip3 install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.7.1-cp34-none-linux_x86_64.whl
+sudo pip3 install tensorflow
 
 
 

@@ -2,7 +2,7 @@ import os
 import struct
 import numpy as np
 import matplotlib.pyplot as plt
-from mnist_nnet import NeuralNetMLP
+from sc_mnist_nnet import NeuralNetMLP
 
 # load and unpack mnist ds before running
 

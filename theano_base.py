@@ -78,7 +78,7 @@ def train_linreg(x_train, y_train, eta, epochs):
     y = T.dvector(name='y')
     x = T.dmatrix(name='x')
     w = theano.shared(np.zeros(shape = (x_train.shape[1] + 1),
-                               dtype=theano.config.floatX), name='w')
+                                     dtype=theano.config.floatX), name='w')
 
     # calc host
     net_input = T.dot(x, w[1:]) + w[0]
@@ -91,8 +91,8 @@ def train_linreg(x_train, y_train, eta, epochs):
 
     # compile model
     train = theano.function(inputs=[eta0], outputs=cost,
-                            updates=update,
-                            givens={x: x_train, y: y_train})
+                                  updates=update,
+                                  givens={x: x_train, y: y_train})
     for _ in range(epochs):
         costs.append(train(eta))
 
