@@ -46,11 +46,11 @@ train_op = tf.train.AdamOptimizer(0.001).minimize(cost)
 
 sess = tf.Session()
 init = tf.global_variables_initializer()
-# tf.summary.FileWriter(sess.graph, '/home/abondar/IdeaProjects/MachineLearnPython', 'graph.pbtxt')
+# tf.summary.FileWriter(sess.graph, './graphs', 'graph.pbtxt')
 cost_op = tf.summary.scalar("loss", cost)
 merged = tf.summary.merge_all()
 sess.run(init)
-# writer = tf.summary.FileWriter('/home/abondar/IdeaProjects/MachineLearnPython', sess.graph)
+# writer = tf.summary.FileWriter('./graphs', sess.graph)
 
 x_vals = df[[df.columns[2], df.columns[4]]].values.astype(float)
 y_vals = df[df.columns[12]].values.astype(float)
