@@ -25,6 +25,8 @@ sudo pip3 install keras
 
 sudo pip3 install tensorflow
 
+sudo pip3 install skflow
+
 
 
 
