@@ -30,7 +30,7 @@ activation = tf.nn.softmax(tf.matmul(x, W) + b)
 # cross entropy for error minimize
 cost = tf.reduce_mean(-tf.reduce_sum(y * tf.log(activation), reduction_indices=1))
 
-# croos entropy
+# cross entropy
 optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(cost)
 
 init = tf.global_variables_initializer()

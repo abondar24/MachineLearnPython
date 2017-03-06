@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import tensorflow as tf
 
-from sklearn import  model_selection, metrics
+from sklearn import model_selection, metrics
 from sklearn import preprocessing
 import tensorflow.contrib.learn as learn
 
@@ -39,19 +39,14 @@ X_train = scaler.fit_transform(X_train)
 # 2-layer fully connected DNN with 10 and 5 unit
 
 feature_columns = learn.infer_real_valued_columns_from_input(X)
-# for i in range(1, 8):
-#     col = tf.contrib.layers.sparse_column_with_keys(
-#         column_name=df.columns[i], keys=df[df.columns[i]])
-#     feature_columns.append(col)
 
 regressor = learn.DNNRegressor(hidden_units=[10, 5], feature_columns=feature_columns,
                                optimizer=tf.train.ProximalAdagradOptimizer(learning_rate=0.051))
 
-
 regressor.fit(X_train, y_train, batch_size=1, steps=500)
 
 # get some metrics based on the X and Y test data
-predictions =list(regressor.predict(scaler.transform(X_test), as_iterable=True))
+predictions = list(regressor.predict(scaler.transform(X_test), as_iterable=True))
 score = metrics.mean_squared_error(predictions, y_test)
 
 print(" Total Mean Squared Error:" + str(score))

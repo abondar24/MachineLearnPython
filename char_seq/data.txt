@@ -1,0 +1,10 @@
+X:1
+T:Variation	no.	1
+C:J.S.Bach
+M:3/4
+L:1/16
+Q:500
+V:2	bass
+K:G
+[V:1]GFG2-	GDEF	GAB^c	|d^cd2-	dABc	defd	|gfg2-	gfed	^ceAG|
+[V:2]G,,2B,A,	B,2G,2G,,2G,2	|F,,2F,E,	F,2D,2F,,2D,2	|E,,2E,D,	E,2G,2A,,2^C2|
