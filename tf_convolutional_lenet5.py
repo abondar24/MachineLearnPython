@@ -99,14 +99,14 @@ with graph.as_default():
 
     # Training computation
     logits = model(tf_train_dataset)
-    loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits, tf_train_labels))
+    loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=tf_train_labels,logits=logits))
 
     # Optimizer
     optimizer = tf.train.GradientDescentOptimizer(0.05).minimize(loss)
 
     train_prediction = tf.nn.softmax(logits)
     valid_prediction = tf.nn.softmax(model(tf_valid_dataset))
-    test_prediction = tf.nn.softmax(model(test_dataset))
+    test_prediction = tf.nn.softmax(model(tf_test_dataset))
 
 num_steps = 20001
 
