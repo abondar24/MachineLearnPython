@@ -18,7 +18,7 @@ num_hidden = 64
 # Reformat data as a cube
 # Reformat labels as float 1-hot encodings
 def reformat(dataset, labels):
-    dataset = dataset.reshape((-1, image_size, image_size, num_channels)).astype(np.float32)
+    dataset = dataset.reshape((-1, image_size, image_size, num_channels)).astype(np.float32)  
     labels = (np.arange(num_labels) == labels[:, None]).astype(np.float32)
     return dataset, labels
 
