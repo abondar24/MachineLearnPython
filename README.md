@@ -1,5 +1,22 @@
-# MachineLearnPython
-Some  basic machine learning staff on python using anaconda scipy,sklearn and many other staff
+# Machine Learning Python
 
-Use anaconda data science platform for installing dependencies or use pip install -r reqiuirements.txt
-Also need to install via sudo apt-get install : libatlas-dev libatlas3gf-base graphviz
+Some  basic machine learning staff on python using anaconda scipy,sklearn,tensorflow and many other staff
+
+
+## Dependencies installation
+
+- Use anaconda data science platform for installing dependencies
+
+Or
+```
+pip install -r reqiuirements.txt
+
+sudo apt install libatlas-base-dev graphviz
+
+```
+Demos are split into three directories
+
+1. [Scipy](scipy/README.md)
+2. [Scikit](scikit/README.md)
+3. [Theano](theano/README.md)
+4. [Tensorflow](tensorflow/README.md)
