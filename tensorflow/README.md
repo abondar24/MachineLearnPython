@@ -78,6 +78,31 @@ Run ```python tf_fullyconnected_sgd.py```
 25. Fully connected neural - Neural network with 1-hidden layer rectified linear units and 1024 hidden nodes
 Run ```python tf_fullyconnected_neural.py```
 
+26. LSTM
+Run ```python tf_lstm.py```
+
+27. LSTM big gram - LSTM model working over bigrams with embedding lookup and dropouts in the inputs/outputs
+Run ```python tf_lstm_bigram.py```
+
+28. LSTM Univariant prediction - LSTM with validation monitor usage.
+Run ```python tf_lstm_univariate_ts_prediction.py```
+
+29. LSTM single matrix.
+Run ```python tf_lstm_single_matrix.py```
+
+30. LSTM char seq - LSTM for char sequesnec
+Run
+
+```
+python tf_lstm_char_seq_gen_dataset.py
+python tf_lstm_char_seq_train.py
+python tf_lstm_char_seq_sample.py
+```
+31. K-Means clusters.
+Run ```python tf_k_means_cluster.py```
+
+32. K-Nearest Neighbours.
+Run ```python tf_k_nearest_neighbours.py```
 
 # Note
 
