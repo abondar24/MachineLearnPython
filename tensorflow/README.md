@@ -51,6 +51,24 @@ Run ```python tf_conv_nn_mnist.py```
 16. Convolutional LeNet5 - CNN based on Lenet5 architecture for MNIST dataset.
 Run ```python tf_convolutional_lenet5.py```
 
+17. Regularization regression - Regularization applied to logistic regression
+Run ```python tf_regularization_logistic.py```
+
+18. Regularization neural - Regularization applied to single-layer neural network.
+Run ```python tf_regularization_neural.py```
+
+19. Regularization two layer - Regularization applied to two-layer neural network.
+Run ```python tf_regularization_2layer.py```
+
+20. Regularization three layer - Regularization applied to three-layer neural network.
+Run ```python tf_regularization_3layer.py```
+
+21. Regularization dropout - Single-layer neural network with dropout.
+Run ```python tf_regularization_dropout.py```
+
+22. Regularization overfitting - Single-layer neural network with overfitting.
+Run ```python tf_regularization_overfitting.py```
+
 
 # Note
 
