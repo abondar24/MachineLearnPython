@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-filename_queue = tf.train.string_input_producer(tf.train.match_filenames_once("/home/abondar/test.gif"))
+filename_queue = tf.train.string_input_producer(tf.train.match_filenames_once("../data/test.gif"))
 
 reader = tf.WholeFileReader()
 key, value = reader.read(filename_queue)
