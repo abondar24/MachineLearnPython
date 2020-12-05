@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
 
-df = pd.read_csv("chd.csv", header=0)
+df = pd.read_csv("../data/chd.csv", header=0)
 print(df.describe())
 
 learning_rate = 0.2

@@ -8,7 +8,7 @@ import tensorflow.contrib.learn as learn
 from keras.models import Sequential
 from keras.layers import Dense
 
-df = pd.read_csv('mpg.csv', header=0)
+df = pd.read_csv('../data/mpg.csv', header=0)
 
 # convert the displacement column as float
 df['displacement'] = df['displacement'].astype(float)
@@ -46,4 +46,3 @@ model.add(Dense(1,init='normal'))
 
 model.compile(loss='mean_squared_error',optimizer='adam')
 model.fit(X_train,y_train,nb_epoch=1000,validation_split=0.33,shuffle=True,verbose=2)
-

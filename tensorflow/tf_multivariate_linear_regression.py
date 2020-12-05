@@ -6,7 +6,7 @@ import pandas as pd
 
 from  sklearn.utils import shuffle
 
-df = pd.read_csv('boston.csv', header=0)
+df = pd.read_csv('../data/boston.csv', header=0)
 print(df.describe())
 
 f, ax1 = plt.subplots()

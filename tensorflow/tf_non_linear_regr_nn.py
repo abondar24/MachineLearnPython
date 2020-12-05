@@ -6,7 +6,7 @@ from sklearn import model_selection, metrics
 from sklearn import preprocessing
 import tensorflow.contrib.learn as learn
 
-df = pd.read_csv('mpg.csv', header=0)
+df = pd.read_csv('../data/mpg.csv', header=0)
 
 # convert the displacement column as float
 df['displacement'] = df['displacement'].astype(float)

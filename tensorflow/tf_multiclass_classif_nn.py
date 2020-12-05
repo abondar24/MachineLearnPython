@@ -11,7 +11,7 @@ sess = tf.InteractiveSession()
 flags = tf.app.flags
 FLAGS = flags.FLAGS
 
-df = pd.read_csv('wine.csv', header=0)
+df = pd.read_csv('../data/wine.csv', header=0)
 print(df.describe)
 
 for i in range(1, 8):
