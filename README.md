@@ -5,9 +5,9 @@ Some  basic machine learning staff on python using anaconda scipy,sklearn,tensor
 
 ## Dependencies installation
 
-- Use anaconda data science platform for installing dependencies
+Use anaconda data science platform for installing dependencies
 
-Or
+Or do the steps below 
 ```
 pip install -r reqiuirements.txt
 

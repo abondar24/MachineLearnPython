@@ -3,7 +3,7 @@ from sklearn.preprocessing import Imputer
 from sklearn import datasets
 
 
-df = pd.read_csv('data.csv')
+df = pd.read_csv('../data/data.csv')
 print(df)
 print(df.isnull().sum())
 print(df.dropna())
