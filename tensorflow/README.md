@@ -69,6 +69,15 @@ Run ```python tf_regularization_dropout.py```
 22. Regularization overfitting - Single-layer neural network with overfitting.
 Run ```python tf_regularization_overfitting.py```
 
+23. Fully connected - Fully connected neural net using logistic regression.
+Run ```python tf_fullyconnected.py```
+
+24. Fully connected SDG - Fully connected neural net using logistic regression and SGD.
+Run ```python tf_fullyconnected_sgd.py```
+
+25. Fully connected neural - Neural network with 1-hidden layer rectified linear units and 1024 hidden nodes
+Run ```python tf_fullyconnected_neural.py```
+
 
 # Note
 
