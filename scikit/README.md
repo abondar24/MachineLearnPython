@@ -105,3 +105,30 @@ Run ```python sk_svm_rbf.py```
 
 35. SVM Nonlinear - Comparision of SVMs with RBF with different gamma parameters.
 Run ```python sk_svn_nonlinear.py```
+
+36. Perceptron - basic perceptron classifier.
+Run ```python sk_perceptron_start.py```
+
+37. Advanced perceptron - perceptron with tuning.
+Run ```python sk_percepttron_adv.py```
+
+38. K-means cluster.
+Run ```python sk_k_means_cluster.py```
+
+39. Hierarchical cluster.
+Run ```python sk_hierarchical_cluster.py```
+
+40. K-nearest neighbors.
+Run ```python sk_k_nearest_neighbours.py```
+
+41. Scrappy K-nearest neighbors.
+Run ```python sk_k_nearest_neighbours_scrappy.py```
+
+42. DbScan - DB Scan clustering with K-Means.
+Run ```python sk_dbscan_clustering.py```
+
+43. Sequential Backward Select - Feature selection based on K-means cluster.
+Run ```python sk_seq_backward_select.py```
+
+44. Kernel PCA.
+Run ```python sk_kernel_pca_scikit.py```
