@@ -81,3 +81,27 @@ Run  ```python sk_linear_discriminant_an.py```
 
 27. Categorial data - Categorizing data using Label and One Hot enocoding.
 Run ```python sk_categorial_data.py```
+
+28. Model pipelines - Basic pipeline usage with StratifiedKFold.
+Run ```python sk_model_pipelines.py```
+
+29. Diagonal Bias Variance - Example of Pipeline based on Logistic Regression and Standard Scaler
+Run ```python sk_diag_bias_variance_problems.py```
+
+30. Diagonal Bias Variance Under/Over fitting - Diagonal Bias variance with effects of underfitting and overfitting.
+Run ```python sk_diag_under_and_over_fitting.py```
+
+31. Performance evaluation metrics - Pipeline metrics.
+Run ```python sk_performance_eval_metrics.py```
+
+32. Principal components - Build covariation matrix, sprlit it into its eigenvecs and eigenvas,construct a projection matrix.
+Run ```python sk_principal_component.py```
+
+33. SVM - Support vector machine with linear kernel.
+Run ```python sk_svm.py```
+
+34. SVM RBF - Support vector machine with RBF kernel.
+Run ```python sk_svm_rbf.py```
+
+35. SVM Nonlinear - Comparision of SVMs with RBF with different gamma parameters.
+Run ```python sk_svn_nonlinear.py```
